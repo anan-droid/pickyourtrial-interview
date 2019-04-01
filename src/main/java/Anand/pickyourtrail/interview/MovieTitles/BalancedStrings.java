@@ -18,7 +18,8 @@ public class BalancedStrings {
 				bdCount++;
 			}
 		}
-		if(acCount%2==0 && bdCount%2==0) {
+		//empty strings are unbalanced and acCount=0 or bdCount=0 is also not even
+		if(acCount!=0 && bdCount!=0 && acCount%2==0 && bdCount%2==0) {
 			System.out.println(true);
 		}
 		else {

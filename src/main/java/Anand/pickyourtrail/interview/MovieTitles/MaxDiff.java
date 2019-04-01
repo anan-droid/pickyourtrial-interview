@@ -26,6 +26,6 @@ public class MaxDiff {
 				}				
 			}
 		}
-		System.out.println(maxdiff);
+		System.out.println("the maximum difference is:"+ maxdiff);
 	}	
 }	
